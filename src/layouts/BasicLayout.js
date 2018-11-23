@@ -173,6 +173,7 @@ class BasicLayout extends React.PureComponent {
     return this.breadcrumbNameMap[pathKey];
   };
 
+  // 修改浏览器title。
   getPageTitle = pathname => {
     const currRouterData = this.matchParamsPath(pathname);
 
@@ -183,7 +184,7 @@ class BasicLayout extends React.PureComponent {
       id: currRouterData.locale || currRouterData.name,
       defaultMessage: currRouterData.name,
     });
-    return `${pageName} - Ant Design Pro`;
+    return `${pageName} - intellif`;
   };
 
   getLayoutStyle = () => {
