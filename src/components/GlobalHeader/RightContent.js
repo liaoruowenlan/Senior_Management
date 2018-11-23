@@ -100,7 +100,7 @@ export default class GlobalHeaderRight extends PureComponent {
     }
     return (
       <div className={className}>
-        <HeaderSearch
+        {/* <HeaderSearch
           className={`${styles.action} ${styles.search}`}
           placeholder={formatMessage({ id: 'component.globalHeader.search' })}
           dataSource={[
@@ -109,13 +109,13 @@ export default class GlobalHeaderRight extends PureComponent {
             formatMessage({ id: 'component.globalHeader.search.example3' }),
           ]}
           onSearch={value => {
-            console.log('input', value); // eslint-disable-line
+            console.log('input', value);
           }}
           onPressEnter={value => {
-            console.log('enter', value); // eslint-disable-line
+            console.log('enter', value);
           }}
-        />
-        <Tooltip title={formatMessage({ id: 'component.globalHeader.help' })}>
+        /> */}
+        {/* <Tooltip title={formatMessage({ id: 'component.globalHeader.help' })}>
           <a
             target="_blank"
             href="https://pro.ant.design/docs/getting-started"
@@ -124,8 +124,8 @@ export default class GlobalHeaderRight extends PureComponent {
           >
             <Icon type="question-circle-o" />
           </a>
-        </Tooltip>
-        <NoticeIcon
+        </Tooltip> */}
+        {/* <NoticeIcon
           className={styles.action}
           count={currentUser.unreadCount}
           onItemClick={(item, tabProps) => {
@@ -166,7 +166,7 @@ export default class GlobalHeaderRight extends PureComponent {
             emptyText={formatMessage({ id: 'component.globalHeader.event.empty' })}
             emptyImage="https://gw.alipayobjects.com/zos/rmsportal/HsIsxMZiWKrNUavQUXqx.svg"
           />
-        </NoticeIcon>
+        </NoticeIcon> */}
         {currentUser.name ? (
           <Dropdown overlay={menu}>
             <span className={`${styles.action} ${styles.account}`}>
