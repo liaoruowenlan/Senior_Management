@@ -8,8 +8,8 @@ const FooterView = () => (
     <GlobalFooter
       links={[
         {
-          key: 'Pro 首页',
-          title: 'Pro 首页',
+          key: 'intellIF 首页',
+          title: 'intellIF 首页',
           href: 'https://pro.ant.design',
           blankTarget: true,
         },
@@ -28,7 +28,7 @@ const FooterView = () => (
       ]}
       copyright={
         <Fragment>
-          Copyright <Icon type="copyright" /> 2018 蚂蚁金服体验技术部出品
+          Copyright <Icon type="copyright" /> 2018 云天励飞软件部开发
         </Fragment>
       }
     />

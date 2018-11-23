@@ -17,124 +17,124 @@ export default [
     Routes: ['src/pages/Authorized'],
     authority: ['admin', 'user'],
     routes: [
-      { path: '/', redirect: '/dashboard/analysis' },
+      { path: '/', redirect: '/UserManagement/AccountManagement' },
 
       // 用户管理router。
       {
-        path: '/dashboard',
+        path: '/UserManagement',
         name: 'user_management',
         icon: 'user',
         routes: [
           {
-            path: '/dashboard/analysis',
+            path: '/UserManagement/AccountManagement',
             name: 'account_management',
-            component: './Dashboard/Analysis',
+            component: './UserManagement/AccountManagement',
           },
           {
-            path: '/dashboard/monitor',
+            path: '/UserManagement/DefinitionManagement',
             name: 'user_high_definition_management',
-            component: './Dashboard/Monitor',
+            component: './UserManagement/DefinitionManagement',
           },
           {
-            path: '/dashboard/workplace',
+            path: '/UserManagement/RegionalQuantity',
             name: 'regional_quantity_allocation',
-            component: './Dashboard/Workplace',
+            component: './UserManagement/RegionalQuantity',
           },
           {
-            path: '/dashboard/workplace1',
+            path: '/UserManagement/RegionalAccounts',
             name: 'regional_account_allocation',
-            component: './Dashboard/Workplace',
+            component: './UserManagement/RegionalAccounts',
           },
         ],
       },
 
       // 系统设置路由。
       {
-        path: '/form',
+        path: '/SystemSetup',
         icon: 'setting',
         name: 'setup',
         routes: [
           {
-            path: '/form/basic-form1',
+            path: '/SystemSetup/Company',
             name: 'company',
-            component: './Forms/BasicForm',
+            component: './SystemSetup/Company',
           },
           {
-            path: '/form/basic-form2',
+            path: '/SystemSetup/Rule',
             name: 'rule',
-            component: './Forms/BasicForm',
+            component: './SystemSetup/Rule',
           },
           {
-            path: '/form/basic-form3',
+            path: '/SystemSetup/Crime',
             name: 'types_of_crime',
-            component: './Forms/BasicForm',
+            component: './SystemSetup/Crime',
           },
           {
-            path: '/form/basic-form4',
+            path: '/SystemSetup/IPcontrol',
             name: 'ip_segment_control',
-            component: './Forms/BasicForm',
+            component: './SystemSetup/IPcontrol',
           },
           {
-            path: '/form/basic-form5',
+            path: '/SystemSetup/Query',
             name: 'query_reason',
-            component: './Forms/BasicForm',
+            component: './SystemSetup/Query',
           },
           {
-            path: '/form/basic-form6',
+            path: '/SystemSetup/Filter',
             name: 'filter',
-            component: './Forms/BasicForm',
+            component: './SystemSetup/Filter',
           },
         ],
       },
 
       // 库管理路由。
       {
-        path: '/list',
+        path: '/Library',
         icon: 'table',
         name: 'library',
         routes: [
           {
-            path: '/list/table-list1',
+            path: '/Library/Library',
             name: 'library',
-            component: './List/TableList',
+            component: './Library/Library',
           },
           {
-            path: '/list/table-list2',
+            path: '/Library/BlackList',
             name: 'blacklist',
-            component: './List/TableList',
+            component: './Library/BlackList',
           },
           {
-            path: '/list/table-list3',
+            path: '/Library/WhiteList',
             name: 'whitelist',
-            component: './List/TableList',
+            component: './Library/WhiteList',
           },
           {
-            path: '/list/table-list4',
+            path: '/Library/RedList',
             name: 'redlist',
-            component: './List/TableList',
+            component: './Library/RedList',
           },
         ],
       },
       // 数据查询路由。
       {
-        path: '/profile',
+        path: '/DataQuery',
         name: 'data_query',
         icon: 'profile',
         routes: [
           {
-            path: '/profile/basic1',
+            path: '/DataQuery/HistoricalQuery',
             name: 'historical_record',
-            component: './Profile/BasicProfile',
+            component: './DataQuery/HistoricalQuery',
           },
           {
-            path: '/profile/basic2',
+            path: '/DataQuery/LoginQuery',
             name: 'landing_user',
-            component: './Profile/BasicProfile',
+            component: './DataQuery/LoginQuery',
           },
           {
-            path: '/profile/advanced3',
+            path: '/DataQuery/RedListQuery',
             name: 'redlist',
-            component: './Profile/AdvancedProfile',
+            component: './DataQuery/RedListQuery',
           },
         ],
       },
