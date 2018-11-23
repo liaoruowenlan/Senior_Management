@@ -1,5 +1,36 @@
 export default {
   'menu.home': '首页',
+  'menu.user_management': '用户管理',
+  'menu.user_management.account_management': '账号管理',
+  'menu.user_management.user_high_definition_management': '用户高清点管理',
+  'menu.user_management.regional_quantity_allocation': '全区域数量分配',
+  'menu.user_management.regional_account_allocation': '全区域账号分配',
+  'menu.setup': '系统设置',
+  'menu.setup.company': '单位管理',
+  'menu.setup.rule': '规则管理',
+  'menu.setup.types_of_crime': '犯罪类型管理',
+  'menu.setup.ip_segment_control': 'IP段控制管理',
+  'menu.setup.query_reason': '查询事由管理',
+  'menu.setup.filter': '过滤管理',
+  'menu.list': '列表页',
+  'menu.library': '库管理',
+  'menu.library.library': '库管理',
+  'menu.library.blacklist': '黑名单管理',
+  'menu.library.whitelist': '白名单管理',
+  'menu.library.redlist': '红名单管理',
+  'menu.data_query': '数据查询',
+  'menu.data_query.historical_record': '历史记录查询',
+  'menu.data_query.landing_user': '登录用户查询',
+  'menu.data_query.redlist': '红名单查询',
+  'menu.account': '个人页',
+  'menu.account.center': '个人中心',
+  'menu.account.settings': '个人设置',
+  'menu.account.trigger': '触发报错',
+  'menu.account.logout': '退出登录',
+};
+/*
+export default {
+  'menu.home': '首页',
   'menu.dashboard': 'Dashboard',
   'menu.dashboard.analysis': '分析页',
   'menu.dashboard.monitor': '监控页',
@@ -36,3 +67,4 @@ export default {
   'menu.account.trigger': '触发报错',
   'menu.account.logout': '退出登录',
 };
+*/
